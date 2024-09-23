@@ -147,3 +147,33 @@ function closeModal(modal4) {
     modal4.classList.remove('active')
     overlay4.classList.remove('active')
 }
+
+const openModalButtons5 = document.querySelectorAll('[data-modal-target5]')
+const closeModalButtons5 = document.querySelectorAll('[data-close-button5]')
+const overlay5 = document.getElementById('overlay5')
+
+openModalButtons5.forEach(button5 => {
+    button5.addEventListener('click', () => {
+        const modal5 = document.querySelector(button5.dataset.modalTarget5)
+        openModal(modal5)
+    })
+})
+
+closeModalButtons5.forEach(button5 => {
+    button5.addEventListener('click', () => {
+        const modal5 = button5.closest('.modal5')
+        closeModal(modal5)
+    })
+})
+
+function openModal(modal5) {
+    if (modal5 == null) return
+    modal5.classList.add('active')
+    overlay5.classList.add('active')
+}
+
+function closeModal(modal5) {
+    if (modal5 == null) return
+    modal5.classList.remove('active')
+    overlay5.classList.remove('active')
+}
