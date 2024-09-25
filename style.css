@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: rgb(231, 174, 19);
+    background-color: rgb(31, 161, 5);
 }
 
 #myH2 {
@@ -15,7 +15,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: rgb(231, 174, 19);
+    background-color: rgb(31, 161, 5);
 }
 
 #myH3 {
@@ -25,7 +25,15 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: rgb(231, 174, 19);
+    background-color: rgb(31, 161, 5);
+}
+
+#myHShiny {
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display: center;
+    justify-content: space-between;
+    background-color: rgb(31, 161, 5);
 }
 
 body {
@@ -43,7 +51,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(231, 174, 19);
+    background-color: rgb(31, 161, 5);
     width: 500px;
     max-width: 80%;
 }
@@ -79,7 +87,7 @@ body {
 }
 
 #buttons {
-    background-color: rgb(231, 174, 19);
+    background-color: rgb(31, 161, 5);
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -116,7 +124,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(231, 174, 19);
+    background-color: rgb(31, 161, 5);
     width: 500px;
     max-width: 80%;
 }
@@ -152,7 +160,7 @@ body {
 }
 
 #buttons1 {
-    background-color: rgb(231, 174, 19);
+    background-color: rgb(31, 161, 5);
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -189,7 +197,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(231, 174, 19);
+    background-color: rgb(31, 161, 5);
     width: 500px;
     max-width: 80%;
 }
@@ -225,7 +233,7 @@ body {
 }
 
 #buttons2 {
-    background-color: rgb(231, 174, 19);
+    background-color: rgb(31, 161, 5);
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -262,7 +270,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(231, 174, 19);
+    background-color: rgb(31, 161, 5);
     width: 500px;
     max-width: 80%;
 }
@@ -298,7 +306,7 @@ body {
 }
 
 #buttons3 {
-    background-color: rgb(231, 174, 19);
+    background-color: rgb(31, 161, 5);
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -335,7 +343,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(231, 174, 19);
+    background-color: rgb(31, 161, 5);
     width: 500px;
     max-width: 80%;
 }
@@ -371,7 +379,7 @@ body {
 }
 
 #buttons4 {
-    background-color: rgb(231, 174, 19);
+    background-color: rgb(31, 161, 5);
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -408,7 +416,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(231, 174, 19);
+    background-color: rgb(31, 161, 5);
     width: 500px;
     max-width: 80%;
 }
@@ -444,7 +452,7 @@ body {
 }
 
 #buttons5 {
-    background-color: rgb(231, 174, 19);
+    background-color: rgb(31, 161, 5);
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -470,4 +478,18 @@ body {
 #overlay5.active {
     opacity: 1;
     pointer-events: all;
+}
+
+#buttonShiny {
+    background-color: rgb(31, 161, 5);
+    color: rgb(0, 0, 0);
+    width: 33%;
+}
+
+.imageShiny {
+    width: 4%;
+}
+
+.imageShiny1 {
+    width: 4%;
 }

@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrawlStars Info</title>
+    <title>PokemonInfo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1 id="myH1">All The Pokemons In Pokemon Go:</h1>
-    <h1 id="myH2">Kanto:</h1>
-    <background id="myBackground"></background>
+        <background id="myBackground"></background>
+    <button onclick="changeImage()" data-modal-targetShiny="#modalShiny" id="buttonShiny">
+        <h1 id="myHShiny"><img src="https://cdn-icons-png.flaticon.com/256/2267/2267359.png" class="imageShiny">Shiny Pokemons In Pokemon Go<img src="https://cdn-icons-png.flaticon.com/256/2267/2267359.png" class="imageShiny1"></h1></button>
+        <h1 id="myH2">Kanto:</h1>
     <button data-modal-target="#modal" id="buttons">
-        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/001.png" class="image">
+        <img src="https://pokemon.gishan.cc/static/i/p/bulbasaur.png" class="image" id="imageNormal">
         <p>Bulbasaur</p>
     </button>
     <div class="modal" id="modal">
@@ -29,7 +31,7 @@
     </div>
     <div id="overlay"></div>
     <button data-modal-target1="#modal1" id="buttons1">
-        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/002.png" class="image1">
+        <img src="https://pokemon.gishan.cc/static/i/p/ivysaur.png" class="image1" id="imageNormal1">
         <p>Ivysaur</p>
     </button>
     <div class="modal1" id="modal1">
@@ -47,7 +49,7 @@
     </div>
     <div id="overlay1"></div>
     <button data-modal-target2="#modal2" id="buttons2">
-        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/003.png" class="image2">
+        <img src="https://pokemon.gishan.cc/static/i/p/venusaur.png" class="image2" id="imageNormal2">
         <p>Venusaur</p>
     </button>
     <div class="modal2" id="modal2">
@@ -65,7 +67,7 @@
     </div>
     <div id="overlay2"></div>
     <button data-modal-target3="#modal3" id="buttons3">
-        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/004.png" class="image3">
+        <img src="https://pokemon.gishan.cc/static/i/p/charmander.png" class="image3" id="imageNormal3">
         <p>Charmander</p>
     </button>
     <div class="modal3" id="modal3">
@@ -83,7 +85,7 @@
     </div>
     <div id="overlay3"></div>
     <button data-modal-target4="#modal4" id="buttons4">
-        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/005.png" class="image4">
+        <img src="https://pokemon.gishan.cc/static/i/p/charmeleon.png" class="image4" id="imageNormal4">
         <p>Charmeleon</p>
     </button>
     <div class="modal4" id="modal4">
@@ -101,7 +103,7 @@
     </div>
     <div id="overlay4"></div>
     <button data-modal-target5="#modal5" id="buttons5">
-        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006.png" class="image5">
+        <img src="https://pokemon.gishan.cc/static/i/p/charizard.png" class="image5" id="imageNormal5">
         <p>Charizard</p>
     </button>
     <div class="modal5" id="modal5">

@@ -177,3 +177,18 @@ function closeModal(modal5) {
     modal5.classList.remove('active')
     overlay5.classList.remove('active')
 }
+
+function changeImage() {
+    var img = document.getElementById('imageNormal');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-bulbasaur.png';
+    var img = document.getElementById('imageNormal1');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-ivysaur.png';
+    var img = document.getElementById('imageNormal2');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-venusaur.png';
+    var img = document.getElementById('imageNormal3');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-charmander.png';
+    var img = document.getElementById('imageNormal4');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-charmeleon.png';
+    var img = document.getElementById('imageNormal5');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-charizard.png';
+}
