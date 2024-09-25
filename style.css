@@ -499,3 +499,222 @@ body {
     color: rgb(0, 0, 0);
     width: 49.5%;
 }
+
+.modal6 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgb(31, 161, 5);
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal6.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header6 {
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header6 .title6 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header6 .close-button6 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body6 {
+    padding: 10px 15px;
+}
+
+#buttons6 {
+    background-color: rgb(31, 161, 5);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    width: 33%;
+}
+
+.image6 {
+    width: 40%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#overlay6 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay6.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal7 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgb(31, 161, 5);
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal7.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header7 {
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header7 .title7 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header7 .close-button7 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body7 {
+    padding: 10px 15px;
+}
+
+#buttons7 {
+    background-color: rgb(31, 161, 5);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    width: 33%;
+}
+
+.image7 {
+    width: 40%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#overlay7 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay7.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal8 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgb(31, 161, 5);
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal8.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header8 {
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header8 .title8 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header8 .close-button8 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body8 {
+    padding: 10px 15px;
+}
+
+#buttons8 {
+    background-color: rgb(31, 161, 5);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    width: 33%;
+}
+
+.image8 {
+    width: 40%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#overlay8 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay8.active {
+    opacity: 1;
+    pointer-events: all;
+}
