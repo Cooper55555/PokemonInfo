@@ -36,6 +36,14 @@
     background-color: rgb(31, 161, 5);
 }
 
+#myHShiny1 {
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display: center;
+    justify-content: space-between;
+    background-color: rgb(31, 161, 5);
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -483,13 +491,11 @@ body {
 #buttonShiny {
     background-color: rgb(31, 161, 5);
     color: rgb(0, 0, 0);
-    width: 33%;
+    width: 49.5%;
 }
 
-.imageShiny {
-    width: 4%;
-}
-
-.imageShiny1 {
-    width: 4%;
+#buttonShiny1 {
+    background-color: rgb(31, 161, 5);
+    color: rgb(0, 0, 0);
+    width: 49.5%;
 }
