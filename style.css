@@ -44,6 +44,16 @@
     background-color: rgb(31, 161, 5);
 }
 
+#myInput {
+    size: 40%;
+    background-color: rgb(47, 213, 14);
+}
+
+#mySubmit {
+    size: 20%;
+    background-color: rgb(31, 161, 5);
+}
+
 body {
     padding: 0;
     margin: 0;
