@@ -197,6 +197,8 @@ function changeImage() {
     img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-wartortle.png';
     var img = document.getElementById('imageNormal8');
     img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-blastoise.png';
+    var img = document.getElementById('imageNormal9');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-chikorita.png';
 }
 
 function changeImage1() {
@@ -218,6 +220,8 @@ function changeImage1() {
     img.src = 'https://pokemon.gishan.cc/static/i/p/wartortle.png';
     var img = document.getElementById('imageNormal8');
     img.src = 'https://pokemon.gishan.cc/static/i/p/blastoise.png';
+    var img = document.getElementById('imageNormal9');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/chikorita.png';
 }
 
 const openModalButtons6 = document.querySelectorAll('[data-modal-target6]')
@@ -308,4 +312,34 @@ function closeModal(modal8) {
     if (modal8 == null) return
     modal8.classList.remove('active')
     overlay8.classList.remove('active')
+}
+
+const openModalButtons9 = document.querySelectorAll('[data-modal-target9]')
+const closeModalButtons9 = document.querySelectorAll('[data-close-button9]')
+const overlay9 = document.getElementById('overlay9')
+
+openModalButtons9.forEach(button9 => {
+    button9.addEventListener('click', () => {
+        const modal9 = document.querySelector(button9.dataset.modalTarget9)
+        openModal(modal9)
+    })
+})
+
+closeModalButtons9.forEach(button9 => {
+    button9.addEventListener('click', () => {
+        const modal9 = button9.closest('.modal9')
+        closeModal(modal9)
+    })
+})
+
+function openModal(modal9) {
+    if (modal9 == null) return
+    modal9.classList.add('active')
+    overlay9.classList.add('active')
+}
+
+function closeModal(modal9) {
+    if (modal9 == null) return
+    modal9.classList.remove('active')
+    overlay9.classList.remove('active')
 }
