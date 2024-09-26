@@ -199,6 +199,10 @@ function changeImage() {
     img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-blastoise.png';
     var img = document.getElementById('imageNormal9');
     img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-chikorita.png';
+    var img = document.getElementById('imageNormal10');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-bayleef.png';
+    var img = document.getElementById('imageNormal11');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-meganium.png';
 }
 
 function changeImage1() {
@@ -222,6 +226,10 @@ function changeImage1() {
     img.src = 'https://pokemon.gishan.cc/static/i/p/blastoise.png';
     var img = document.getElementById('imageNormal9');
     img.src = 'https://pokemon.gishan.cc/static/i/p/chikorita.png';
+    var img = document.getElementById('imageNormal10');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/bayleef.png';
+    var img = document.getElementById('imageNormal11');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/meganium.png';
 }
 
 const openModalButtons6 = document.querySelectorAll('[data-modal-target6]')
@@ -342,4 +350,64 @@ function closeModal(modal9) {
     if (modal9 == null) return
     modal9.classList.remove('active')
     overlay9.classList.remove('active')
+}
+
+const openModalButtons10 = document.querySelectorAll('[data-modal-target10]')
+const closeModalButtons10 = document.querySelectorAll('[data-close-button10]')
+const overlay10 = document.getElementById('overlay10')
+
+openModalButtons10.forEach(button10 => {
+    button10.addEventListener('click', () => {
+        const modal10 = document.querySelector(button10.dataset.modalTarget10)
+        openModal(modal10)
+    })
+})
+
+closeModalButtons10.forEach(button10 => {
+    button10.addEventListener('click', () => {
+        const modal10 = button10.closest('.modal10')
+        closeModal(modal10)
+    })
+})
+
+function openModal(modal10) {
+    if (modal10 == null) return
+    modal10.classList.add('active')
+    overlay10.classList.add('active')
+}
+
+function closeModal(modal10) {
+    if (modal10 == null) return
+    modal10.classList.remove('active')
+    overlay10.classList.remove('active')
+}
+
+const openModalButtons11 = document.querySelectorAll('[data-modal-target11]')
+const closeModalButtons11 = document.querySelectorAll('[data-close-button11]')
+const overlay11 = document.getElementById('overlay11')
+
+openModalButtons11.forEach(button11 => {
+    button11.addEventListener('click', () => {
+        const modal11 = document.querySelector(button11.dataset.modalTarget11)
+        openModal(modal11)
+    })
+})
+
+closeModalButtons11.forEach(button11 => {
+    button11.addEventListener('click', () => {
+        const modal11 = button11.closest('.modal11')
+        closeModal(modal11)
+    })
+})
+
+function openModal(modal11) {
+    if (modal11 == null) return
+    modal11.classList.add('active')
+    overlay11.classList.add('active')
+}
+
+function closeModal(modal11) {
+    if (modal11 == null) return
+    modal11.classList.remove('active')
+    overlay11.classList.remove('active')
 }

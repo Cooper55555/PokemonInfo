@@ -801,3 +801,149 @@ body {
     opacity: 1;
     pointer-events: all;
 }
+
+.modal10 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgb(31, 161, 5);
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal10.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header10 {
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header10 .title10 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header10 .close-button10 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body10 {
+    padding: 10px 15px;
+}
+
+#buttons10 {
+    background-color: rgb(31, 161, 5);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    width: 33%;
+}
+
+.image10 {
+    width: 40%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#overlay10 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay10.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal11 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgb(31, 161, 5);
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal11.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header11 {
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header11 .title11 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header11 .close-button11 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body11 {
+    padding: 10px 15px;
+}
+
+#buttons11 {
+    background-color: rgb(31, 161, 5);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    width: 33%;
+}
+
+.image11 {
+    width: 40%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#overlay11 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay11.active {
+    opacity: 1;
+    pointer-events: all;
+}
