@@ -203,6 +203,27 @@ function changeImage() {
     img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-bayleef.png';
     var img = document.getElementById('imageNormal11');
     img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-meganium.png';
+    document.getElementById('myInput').style.backgroundColor="rgb(231, 202, 13)";
+    document.getElementById('mySubmit').style.backgroundColor="orange";
+    document.getElementById('myHShiny').style.backgroundColor="orange";
+    document.getElementById('myHShiny1').style.backgroundColor="orange";
+    document.getElementById('myH1').style.backgroundColor="orange";
+    document.getElementById('myH2').style.backgroundColor="orange";
+    document.getElementById('myH3').style.backgroundColor="orange";
+    document.getElementById('buttonShiny').style.backgroundColor="orange";
+    document.getElementById('buttonShiny1').style.backgroundColor="orange";
+    document.getElementById('buttons').style.backgroundColor="orange";
+    document.getElementById('buttons1').style.backgroundColor="orange";
+    document.getElementById('buttons2').style.backgroundColor="orange";
+    document.getElementById('buttons3').style.backgroundColor="orange";
+    document.getElementById('buttons4').style.backgroundColor="orange";
+    document.getElementById('buttons5').style.backgroundColor="orange";
+    document.getElementById('buttons6').style.backgroundColor="orange";
+    document.getElementById('buttons7').style.backgroundColor="orange";
+    document.getElementById('buttons8').style.backgroundColor="orange";
+    document.getElementById('buttons9').style.backgroundColor="orange";
+    document.getElementById('buttons10').style.backgroundColor="orange";
+    document.getElementById('buttons11').style.backgroundColor="orange";
 }
 
 function changeImage1() {
@@ -230,6 +251,27 @@ function changeImage1() {
     img.src = 'https://pokemon.gishan.cc/static/i/p/bayleef.png';
     var img = document.getElementById('imageNormal11');
     img.src = 'https://pokemon.gishan.cc/static/i/p/meganium.png';
+    document.getElementById('myInput').style.backgroundColor="rgb(47, 213, 14)";
+    document.getElementById('mySubmit').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('myHShiny').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('myHShiny1').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('myH1').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('myH2').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('myH3').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttonShiny').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttonShiny1').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons1').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons2').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons3').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons4').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons5').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons6').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons7').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons8').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons9').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons10').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons11').style.backgroundColor="rgb(31, 161, 5)";
 }
 
 const openModalButtons6 = document.querySelectorAll('[data-modal-target6]')
