@@ -205,12 +205,30 @@ function changeImage() {
     img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-meganium.png';
     var img = document.getElementById('imageNormal12');
     img.src = 'https://img.pokemondb.net/sprites/home/shiny/1x/wyrdeer.png';
+    var img = document.getElementById('imageNormal14');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-kleavor.png';
+    var img = document.getElementById('imageNormal15');
+    img.src = 'https://img.pokemondb.net/sprites/home/shiny/1x/ursaluna.png';
+    var img = document.getElementById('imageNormal16');
+    img.src = 'https://img.pokemondb.net/sprites/home/shiny/1x/basculegion-male.png';
     var img = document.getElementById('costumeBulbasaur');
     img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/bulbasaur-pikachu-cap.png';
     var img = document.getElementById('costumeBulbasaur1');
     img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/bulbasaur-red-party-hat.png';
     var img = document.getElementById('costumeBulbasaur2');
     img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/bulbasaur-shedinja.png';
+    var img = document.getElementById('costumeSquirtle');
+    img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/squirtle-pikachu-cap.png';
+    var img = document.getElementById('costumeSquirtle1');
+    img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/squirtle-red-party-hat.png';
+    var img = document.getElementById('costumeSquirtle2');
+    img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/squirtle-sunglasses.png';
+    var img = document.getElementById('costumeSquirtle3');
+    img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/squirtle-yamask.png';
+    var img = document.getElementById('costumeWartortle');
+    img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/wartortle-red-party-hat.png';
+    var img = document.getElementById('costumeWartortle1');
+    img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/wartortle-sunglasses.png';
     document.getElementById('modal').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal1').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal2').style.backgroundColor="rgb(195, 179, 8)";
@@ -225,9 +243,18 @@ function changeImage() {
     document.getElementById('modal11').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal12').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal13').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('modal14').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('modal15').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('modal16').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('costumeBulbasaur').style.backgroundColor="rgb(231, 202, 13)";
     document.getElementById('costumeBulbasaur1').style.backgroundColor="rgb(231, 202, 13)";
     document.getElementById('costumeBulbasaur2').style.backgroundColor="rgb(231, 202, 13)";
+    document.getElementById('costumeSquirtle').style.backgroundColor="rgb(231, 202, 13)";
+    document.getElementById('costumeSquirtle1').style.backgroundColor="rgb(231, 202, 13)";
+    document.getElementById('costumeSquirtle2').style.backgroundColor="rgb(231, 202, 13)";
+    document.getElementById('costumeSquirtle3').style.backgroundColor="rgb(231, 202, 13)";
+    document.getElementById('costumeWartortle').style.backgroundColor="rgb(231, 202, 13)";
+    document.getElementById('costumeWartortle1').style.backgroundColor="rgb(231, 202, 13)";
     document.getElementById('myInput').style.backgroundColor="rgb(231, 202, 13)";
     document.getElementById('mySubmit').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('myHShiny').style.backgroundColor="rgb(195, 179, 8)";
@@ -260,6 +287,9 @@ function changeImage() {
     document.getElementById('buttons11').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttons12').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttons13').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('buttons14').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('buttons15').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('buttons16').style.backgroundColor="rgb(195, 179, 8)";
 }
 
 function changeImage1() {
@@ -289,12 +319,30 @@ function changeImage1() {
     img.src = 'https://pokemon.gishan.cc/static/i/p/meganium.png';
     var img = document.getElementById('imageNormal12');
     img.src = 'https://pokemon.gishan.cc/static/i/p/wyrdeer.png';
+    var img = document.getElementById('imageNormal14');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/kleavor.png';
+    var img = document.getElementById('imageNormal15');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/ursaluna.png';
+    var img = document.getElementById('imageNormal16');
+    img.src = 'https://img.pokemondb.net/sprites/home/normal/1x/basculegion-male.png';
     var img = document.getElementById('costumeBulbasaur');
     img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/bulbasaur-pikachu-cap.png';
     var img = document.getElementById('costumeBulbasaur1');
     img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/bulbasaur-red-party-hat.png';
     var img = document.getElementById('costumeBulbasaur2');
     img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/bulbasaur-shedinja.png';
+    var img = document.getElementById('costumeSquirtle');
+    img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/squirtle-pikachu-cap.png';
+    var img = document.getElementById('costumeSquirtle1');
+    img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/squirtle-red-party-hat.png';
+    var img = document.getElementById('costumeSquirtle2');
+    img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/squirtle-sunglasses.png';
+    var img = document.getElementById('costumeSquirtle3');
+    img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/squirtle-yamask.png';
+    var img = document.getElementById('costumeWartortle');
+    img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/wartortle-red-party-hat.png';
+    var img = document.getElementById('costumeWartortle1');
+    img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/wartortle-sunglasses.png';
     document.getElementById('modal').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('modal1').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('modal2').style.backgroundColor="rgb(31, 161, 5)";
@@ -309,9 +357,18 @@ function changeImage1() {
     document.getElementById('modal11').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('modal12').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('modal13').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('modal14').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('modal15').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('modal16').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('costumeBulbasaur').style.backgroundColor="rgb(47, 213, 14)";
     document.getElementById('costumeBulbasaur1').style.backgroundColor="rgb(47, 213, 14)";
     document.getElementById('costumeBulbasaur2').style.backgroundColor="rgb(47, 213, 14)";
+    document.getElementById('costumeSquirtle').style.backgroundColor="rgb(47, 213, 14)";
+    document.getElementById('costumeSquirtle1').style.backgroundColor="rgb(47, 213, 14)";
+    document.getElementById('costumeSquirtle2').style.backgroundColor="rgb(47, 213, 14)";
+    document.getElementById('costumeSquirtle3').style.backgroundColor="rgb(47, 213, 14)";
+    document.getElementById('costumeWartortle').style.backgroundColor="rgb(47, 213, 14)";
+    document.getElementById('costumeWartortle1').style.backgroundColor="rgb(47, 213, 14)";
     document.getElementById('myInput').style.backgroundColor="rgb(47, 213, 14)";
     document.getElementById('mySubmit').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('myHShiny').style.backgroundColor="rgb(31, 161, 5)";
@@ -344,6 +401,9 @@ function changeImage1() {
     document.getElementById('buttons11').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('buttons12').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('buttons13').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons14').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons15').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons16').style.backgroundColor="rgb(31, 161, 5)";
 }
 
 const openModalButtons6 = document.querySelectorAll('[data-modal-target6]')
@@ -584,4 +644,94 @@ function closeModal(modal13) {
     if (modal13 == null) return
     modal13.classList.remove('active')
     overlay13.classList.remove('active')
+}
+
+const openModalButtons14 = document.querySelectorAll('[data-modal-target14]')
+const closeModalButtons14 = document.querySelectorAll('[data-close-button14]')
+const overlay14 = document.getElementById('overlay14')
+
+openModalButtons14.forEach(button14 => {
+    button14.addEventListener('click', () => {
+        const modal14 = document.querySelector(button14.dataset.modalTarget14)
+        openModal(modal14)
+    })
+})
+
+closeModalButtons14.forEach(button14 => {
+    button14.addEventListener('click', () => {
+        const modal14 = button14.closest('.modal14')
+        closeModal(modal14)
+    })
+})
+
+function openModal(modal14) {
+    if (modal14 == null) return
+    modal14.classList.add('active')
+    overlay14.classList.add('active')
+}
+
+function closeModal(modal14) {
+    if (modal14 == null) return
+    modal14.classList.remove('active')
+    overlay14.classList.remove('active')
+}
+
+const openModalButtons15 = document.querySelectorAll('[data-modal-target15]')
+const closeModalButtons15 = document.querySelectorAll('[data-close-button15]')
+const overlay15 = document.getElementById('overlay15')
+
+openModalButtons15.forEach(button15 => {
+    button15.addEventListener('click', () => {
+        const modal15 = document.querySelector(button15.dataset.modalTarget15)
+        openModal(modal15)
+    })
+})
+
+closeModalButtons15.forEach(button15 => {
+    button15.addEventListener('click', () => {
+        const modal15 = button15.closest('.modal15')
+        closeModal(modal15)
+    })
+})
+
+function openModal(modal15) {
+    if (modal15 == null) return
+    modal15.classList.add('active')
+    overlay15.classList.add('active')
+}
+
+function closeModal(modal15) {
+    if (modal15 == null) return
+    modal15.classList.remove('active')
+    overlay15.classList.remove('active')
+}
+
+const openModalButtons16 = document.querySelectorAll('[data-modal-target16]')
+const closeModalButtons16 = document.querySelectorAll('[data-close-button16]')
+const overlay16 = document.getElementById('overlay16')
+
+openModalButtons16.forEach(button16 => {
+    button16.addEventListener('click', () => {
+        const modal16 = document.querySelector(button16.dataset.modalTarget16)
+        openModal(modal16)
+    })
+})
+
+closeModalButtons16.forEach(button16 => {
+    button16.addEventListener('click', () => {
+        const modal16 = button16.closest('.modal16')
+        closeModal(modal16)
+    })
+})
+
+function openModal(modal16) {
+    if (modal16 == null) return
+    modal16.classList.add('active')
+    overlay16.classList.add('active')
+}
+
+function closeModal(modal16) {
+    if (modal16 == null) return
+    modal16.classList.remove('active')
+    overlay16.classList.remove('active')
 }

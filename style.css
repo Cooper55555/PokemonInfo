@@ -162,6 +162,42 @@
     border: 1px solid black;
 }
 
+#costumeSquirtle {
+    border-radius: 50%;
+    background-color: rgb(47, 213, 14);
+    border: 1px solid black;
+}
+
+#costumeSquirtle1 {
+    border-radius: 50%;
+    background-color: rgb(47, 213, 14);
+    border: 1px solid black;
+}
+
+#costumeSquirtle2 {
+    border-radius: 50%;
+    background-color: rgb(47, 213, 14);
+    border: 1px solid black;
+}
+
+#costumeSquirtle3 {
+    border-radius: 50%;
+    background-color: rgb(47, 213, 14);
+    border: 1px solid black;
+}
+
+#costumeWartortle {
+    border-radius: 50%;
+    background-color: rgb(47, 213, 14);
+    border: 1px solid black;
+}
+
+#costumeWartortle1 {
+    border-radius: 50%;
+    background-color: rgb(47, 213, 14);
+    border: 1px solid black;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -1603,4 +1639,223 @@ body {
 
 #pokemonCard101 {
     width: 4%;
+}
+
+.modal14 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgb(31, 161, 5);
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal14.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header14 {
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header14 .title14 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header14 .close-button14 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body14 {
+    padding: 10px 15px;
+}
+
+#buttons14 {
+    background-color: rgb(31, 161, 5);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    width: 33%;
+}
+
+.image14 {
+    width: 40%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#overlay14 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay14.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal15 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgb(31, 161, 5);
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal15.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header15 {
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header15 .title15 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header15 .close-button15 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body15 {
+    padding: 10px 15px;
+}
+
+#buttons15 {
+    background-color: rgb(31, 161, 5);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    width: 33%;
+}
+
+.image15 {
+    width: 40%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#overlay15 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay15.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal16 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgb(31, 161, 5);
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal16.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header16 {
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header16 .title16 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header16 .close-button16 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body16 {
+    padding: 10px 15px;
+}
+
+#buttons16 {
+    background-color: rgb(31, 161, 5);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    width: 33%;
+}
+
+.image16 {
+    width: 40%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#overlay16 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay16.active {
+    opacity: 1;
+    pointer-events: all;
 }
