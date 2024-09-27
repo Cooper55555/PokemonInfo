@@ -203,6 +203,14 @@ function changeImage() {
     img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-bayleef.png';
     var img = document.getElementById('imageNormal11');
     img.src = 'https://pokemon.gishan.cc/static/i/p/shiny-meganium.png';
+    var img = document.getElementById('imageNormal12');
+    img.src = 'https://img.pokemondb.net/sprites/home/shiny/1x/wyrdeer.png';
+    var img = document.getElementById('costumeBulbasaur');
+    img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/bulbasaur-pikachu-cap.png';
+    var img = document.getElementById('costumeBulbasaur1');
+    img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/bulbasaur-red-party-hat.png';
+    var img = document.getElementById('costumeBulbasaur2');
+    img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/bulbasaur-shedinja.png';
     document.getElementById('modal').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal1').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal2').style.backgroundColor="rgb(195, 179, 8)";
@@ -215,6 +223,11 @@ function changeImage() {
     document.getElementById('modal9').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal10').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal11').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('modal12').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('modal13').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('costumeBulbasaur').style.backgroundColor="rgb(231, 202, 13)";
+    document.getElementById('costumeBulbasaur1').style.backgroundColor="rgb(231, 202, 13)";
+    document.getElementById('costumeBulbasaur2').style.backgroundColor="rgb(231, 202, 13)";
     document.getElementById('myInput').style.backgroundColor="rgb(231, 202, 13)";
     document.getElementById('mySubmit').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('myHShiny').style.backgroundColor="rgb(195, 179, 8)";
@@ -222,6 +235,15 @@ function changeImage() {
     document.getElementById('myH1').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('myH2').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('myH3').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('myH4').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('myH5').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('myH6').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('myH7').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('myH8').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('myH9').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('myH10').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('myH11').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('myH12').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttonShiny').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttonShiny1').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttons').style.backgroundColor="rgb(195, 179, 8)";
@@ -236,6 +258,8 @@ function changeImage() {
     document.getElementById('buttons9').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttons10').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttons11').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('buttons12').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('buttons13').style.backgroundColor="rgb(195, 179, 8)";
 }
 
 function changeImage1() {
@@ -263,6 +287,14 @@ function changeImage1() {
     img.src = 'https://pokemon.gishan.cc/static/i/p/bayleef.png';
     var img = document.getElementById('imageNormal11');
     img.src = 'https://pokemon.gishan.cc/static/i/p/meganium.png';
+    var img = document.getElementById('imageNormal12');
+    img.src = 'https://pokemon.gishan.cc/static/i/p/wyrdeer.png';
+    var img = document.getElementById('costumeBulbasaur');
+    img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/bulbasaur-pikachu-cap.png';
+    var img = document.getElementById('costumeBulbasaur1');
+    img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/bulbasaur-red-party-hat.png';
+    var img = document.getElementById('costumeBulbasaur2');
+    img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/bulbasaur-shedinja.png';
     document.getElementById('modal').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('modal1').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('modal2').style.backgroundColor="rgb(31, 161, 5)";
@@ -275,6 +307,11 @@ function changeImage1() {
     document.getElementById('modal9').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('modal10').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('modal11').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('modal12').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('modal13').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('costumeBulbasaur').style.backgroundColor="rgb(47, 213, 14)";
+    document.getElementById('costumeBulbasaur1').style.backgroundColor="rgb(47, 213, 14)";
+    document.getElementById('costumeBulbasaur2').style.backgroundColor="rgb(47, 213, 14)";
     document.getElementById('myInput').style.backgroundColor="rgb(47, 213, 14)";
     document.getElementById('mySubmit').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('myHShiny').style.backgroundColor="rgb(31, 161, 5)";
@@ -282,6 +319,15 @@ function changeImage1() {
     document.getElementById('myH1').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('myH2').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('myH3').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('myH4').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('myH5').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('myH6').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('myH7').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('myH8').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('myH9').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('myH10').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('myH11').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('myH12').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('buttonShiny').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('buttonShiny1').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('buttons').style.backgroundColor="rgb(31, 161, 5)";
@@ -296,6 +342,8 @@ function changeImage1() {
     document.getElementById('buttons9').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('buttons10').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('buttons11').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons12').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('buttons13').style.backgroundColor="rgb(31, 161, 5)";
 }
 
 const openModalButtons6 = document.querySelectorAll('[data-modal-target6]')
@@ -476,4 +524,64 @@ function closeModal(modal11) {
     if (modal11 == null) return
     modal11.classList.remove('active')
     overlay11.classList.remove('active')
+}
+
+const openModalButtons12 = document.querySelectorAll('[data-modal-target12]')
+const closeModalButtons12 = document.querySelectorAll('[data-close-button12]')
+const overlay12 = document.getElementById('overlay12')
+
+openModalButtons12.forEach(button12 => {
+    button12.addEventListener('click', () => {
+        const modal12 = document.querySelector(button12.dataset.modalTarget12)
+        openModal(modal12)
+    })
+})
+
+closeModalButtons12.forEach(button12 => {
+    button12.addEventListener('click', () => {
+        const modal12 = button12.closest('.modal12')
+        closeModal(modal12)
+    })
+})
+
+function openModal(modal12) {
+    if (modal12 == null) return
+    modal12.classList.add('active')
+    overlay12.classList.add('active')
+}
+
+function closeModal(modal12) {
+    if (modal12 == null) return
+    modal12.classList.remove('active')
+    overlay12.classList.remove('active')
+}
+
+const openModalButtons13 = document.querySelectorAll('[data-modal-target13]')
+const closeModalButtons13 = document.querySelectorAll('[data-close-button13]')
+const overlay13 = document.getElementById('overlay13')
+
+openModalButtons13.forEach(button13 => {
+    button13.addEventListener('click', () => {
+        const modal13 = document.querySelector(button13.dataset.modalTarget13)
+        openModal(modal13)
+    })
+})
+
+closeModalButtons13.forEach(button13 => {
+    button13.addEventListener('click', () => {
+        const modal13 = button13.closest('.modal13')
+        closeModal(modal13)
+    })
+})
+
+function openModal(modal13) {
+    if (modal13 == null) return
+    modal13.classList.add('active')
+    overlay13.classList.add('active')
+}
+
+function closeModal(modal13) {
+    if (modal13 == null) return
+    modal13.classList.remove('active')
+    overlay13.classList.remove('active')
 }

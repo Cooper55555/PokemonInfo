@@ -28,6 +28,96 @@
     background-color: rgb(31, 161, 5);
 }
 
+#myH4 {
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgb(31, 161, 5);
+}
+
+#myH5 {
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgb(31, 161, 5);
+}
+
+#myH6 {
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgb(31, 161, 5);
+}
+
+#myH7 {
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgb(31, 161, 5);
+}
+
+#myH8 {
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgb(31, 161, 5);
+}
+
+#myH9 {
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgb(31, 161, 5);
+}
+
+#myH10 {
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgb(31, 161, 5);
+}
+
+#myH11 {
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgb(31, 161, 5);
+}
+
+#myH12 {
+    color: rgb(0, 0, 0);
+    padding: 30px 35px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgb(31, 161, 5);
+}
+
 #myHShiny {
     color: rgb(0, 0, 0);
     padding: 10px 15px;
@@ -52,6 +142,24 @@
 #mySubmit {
     size: 20%;
     background-color: rgb(31, 161, 5);
+}
+
+#costumeBulbasaur {
+    border-radius: 50%;
+    background-color: rgb(47, 213, 14);
+    border: 1px solid black;
+}
+
+#costumeBulbasaur1 {
+    border-radius: 50%;
+    background-color: rgb(47, 213, 14);
+    border: 1px solid black;
+}
+
+#costumeBulbasaur2 {
+    border-radius: 50%;
+    background-color: rgb(47, 213, 14);
+    border: 1px solid black;
 }
 
 body {
@@ -946,4 +1054,553 @@ body {
 #overlay11.active {
     opacity: 1;
     pointer-events: all;
+}
+
+.modal12 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgb(31, 161, 5);
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal12.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header12 {
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header12 .title12 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header12 .close-button12 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body12 {
+    padding: 10px 15px;
+}
+
+#buttons12 {
+    background-color: rgb(31, 161, 5);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    width: 33%;
+}
+
+.image12 {
+    width: 40%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#overlay12 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay12.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal13 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgb(31, 161, 5);
+    width: 1500px;
+    max-width: 85%;
+}
+
+.modal13.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header13 {
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header13 .title13 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header13 .close-button13 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body13 {
+    padding: 10px 15px;
+}
+
+#buttons13 {
+    background-color: rgb(31, 161, 5);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    width: 25%;
+}
+
+#overlay13 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay13.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+#pokemonCard {
+    width: 4%;
+}
+
+#pokemonCard1 {
+    width: 4%;
+}
+
+#pokemonCard2 {
+    width: 4%;
+}
+
+#pokemonCard3 {
+    width: 4%;
+}
+
+#pokemonCard4 {
+    width: 4%;
+}
+
+#pokemonCard5 {
+    width: 4%;
+}
+
+#pokemonCard6 {
+    width: 4%;
+}
+
+#pokemonCard7 {
+    width: 4%;
+}
+
+#pokemonCard8 {
+    width: 4%;
+}
+
+#pokemonCard9 {
+    width: 4%;
+}
+
+#pokemonCard10 {
+    width: 4%;
+}
+
+#pokemonCard11 {
+    width: 4%;
+}
+
+#pokemonCard12 {
+    width: 4%;
+}
+
+#pokemonCard13 {
+    width: 4%;
+}
+
+#pokemonCard14 {
+    width: 4%;
+}
+
+#pokemonCard15 {
+    width: 4%;
+}
+
+#pokemonCard16 {
+    width: 4%;
+}
+
+#pokemonCard17 {
+    width: 4%;
+}
+
+#pokemonCard18 {
+    width: 4%;
+}
+
+#pokemonCard19 {
+    width: 4%;
+}
+
+#pokemonCard20 {
+    width: 4%;
+}
+
+#pokemonCard21 {
+    width: 4%;
+}
+
+#pokemonCard22 {
+    width: 4%;
+}
+
+#pokemonCard23 {
+    width: 4%;
+}
+
+#pokemonCard24 {
+    width: 4%;
+}
+
+#pokemonCard25 {
+    width: 4%;
+}
+
+#pokemonCard26 {
+    width: 4%;
+}
+
+#pokemonCard27 {
+    width: 4%;
+}
+
+#pokemonCard28 {
+    width: 4%;
+}
+
+#pokemonCard29 {
+    width: 4%;
+}
+
+#pokemonCard30 {
+    width: 4%;
+}
+
+#pokemonCard31 {
+    width: 4%;
+}
+
+#pokemonCard32 {
+    width: 4%;
+}
+
+#pokemonCard33 {
+    width: 4%;
+}
+
+#pokemonCard34 {
+    width: 4%;
+}
+
+#pokemonCard35 {
+    width: 4%;
+}
+
+#pokemonCard36 {
+    width: 4%;
+}
+
+#pokemonCard37 {
+    width: 4%;
+}
+
+#pokemonCard38 {
+    width: 4%;
+}
+
+#pokemonCard39 {
+    width: 4%;
+}
+
+#pokemonCard40 {
+    width: 4%;
+}
+
+#pokemonCard41 {
+    width: 4%;
+}
+
+#pokemonCard42 {
+    width: 4%;
+}
+
+#pokemonCard43 {
+    width: 4%;
+}
+
+#pokemonCard44 {
+    width: 4%;
+}
+
+#pokemonCard45 {
+    width: 4%;
+}
+
+#pokemonCard46 {
+    width: 4%;
+}
+
+#pokemonCard47 {
+    width: 4%;
+}
+
+#pokemonCard48 {
+    width: 4%;
+}
+
+#pokemonCard49 {
+    width: 4%;
+}
+
+#pokemonCard50 {
+    width: 4%;
+}
+
+#pokemonCard51 {
+    width: 4%;
+}
+
+#pokemonCard52 {
+    width: 4%;
+}
+
+#pokemonCard53 {
+    width: 4%;
+}
+
+#pokemonCard54 {
+    width: 4%;
+}
+
+#pokemonCard55 {
+    width: 4%;
+}
+
+#pokemonCard56 {
+    width: 4%;
+}
+
+#pokemonCard57 {
+    width: 4%;
+}
+
+#pokemonCard58 {
+    width: 4%;
+}
+
+#pokemonCard59 {
+    width: 4%;
+}
+
+#pokemonCard60 {
+    width: 4%;
+}
+
+#pokemonCard61 {
+    width: 4%;
+}
+
+#pokemonCard62 {
+    width: 4%;
+}
+
+#pokemonCard63 {
+    width: 4%;
+}
+
+#pokemonCard64 {
+    width: 4%;
+}
+
+#pokemonCard65 {
+    width: 4%;
+}
+
+#pokemonCard66 {
+    width: 4%;
+}
+
+#pokemonCard67 {
+    width: 4%;
+}
+
+#pokemonCard68 {
+    width: 4%;
+}
+
+#pokemonCard69 {
+    width: 4%;
+}
+
+#pokemonCard70 {
+    width: 4%;
+}
+
+#pokemonCard71 {
+    width: 4%;
+}
+
+#pokemonCard72 {
+    width: 4%;
+}
+
+#pokemonCard73 {
+    width: 4%;
+}
+
+#pokemonCard74 {
+    width: 4%;
+}
+
+#pokemonCard75 {
+    width: 4%;
+}
+
+#pokemonCard76 {
+    width: 4%;
+}
+
+#pokemonCard77 {
+    width: 4%;
+}
+
+#pokemonCard78 {
+    width: 4%;
+}
+
+#pokemonCard79 {
+    width: 4%;
+}
+
+#pokemonCard80 {
+    width: 4%;
+}
+
+#pokemonCard81 {
+    width: 4%;
+}
+
+#pokemonCard82 {
+    width: 4%;
+}
+
+#pokemonCard83 {
+    width: 4%;
+}
+
+#pokemonCard84 {
+    width: 4%;
+}
+
+#pokemonCard85 {
+    width: 4%;
+}
+
+#pokemonCard86 {
+    width: 4%;
+}
+
+#pokemonCard87 {
+    width: 4%;
+}
+
+#pokemonCard88 {
+    width: 4%;
+}
+
+#pokemonCard89 {
+    width: 4%;
+}
+
+#pokemonCard90 {
+    width: 4%;
+}
+
+#pokemonCard91 {
+    width: 4%;
+}
+
+#pokemonCard92 {
+    width: 4%;
+}
+
+#pokemonCard93 {
+    width: 4%;
+}
+
+#pokemonCard94 {
+    width: 4%;
+}
+
+#pokemonCard95 {
+    width: 4%;
+}
+
+#pokemonCard96 {
+    width: 4%;
+}
+
+#pokemonCard97 {
+    width: 4%;
+}
+
+#pokemonCard98 {
+    width: 4%;
+}
+
+#pokemonCard99 {
+    width: 4%;
+}
+
+#pokemonCard100 {
+    width: 4%;
+}
+
+#pokemonCard101 {
+    width: 4%;
 }
