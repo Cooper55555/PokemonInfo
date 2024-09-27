@@ -7,7 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="myH1">All The Pokemons In Pokemon Go:<button id="mySubmit"><input id="myInput" placeholder="Search A Pokemon!"></div> Search</button></h1>
+    <h1 id="myH1">All The Pokemons In Pokemon Go:</div></h1>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search For Pokemon..">
+    <ul id="myUL">
+      <li><a onclick="openModal(modal)" href="#">Bulbasaur</a></li>
+      <li><a onclick="openModal(modal1)" href="#">Ivysaur</a></li>
+      <li><a onclick="openModal(modal2)" href="#">Venusaur</a></li>
+      <li><a onclick="openModal(modal3)" href="#">Charmander</a></li>
+      <li><a onclick="openModal(modal4)" href="#">Charmeleon</a></li>
+      <li><a onclick="openModal(modal5)" href="#">Charizard</a></li>
+      <li><a onclick="openModal(modal6)" href="#">Squirtle</a></li>
+      <li><a onclick="openModal(modal7)" href="#">Wartortle</a></li>
+      <li><a onclick="openModal(modal8)" href="#">Blastoise</a></li>
+      <li><a onclick="openModal(modal9)" href="#">Chikorita</a></li>
+      <li><a onclick="openModal(modal10)" href="#">Bayleef</a></li>
+      <li><a onclick="openModal(modal11)" href="#">Meganium</a></li>
+      <li><a onclick="openModal(modal12)" href="#">Wyrdeer</a></li>
+      <li><a onclick="openModal(modal14)" href="#">Kleavor</a></li>
+      <li><a onclick="openModal(modal15)" href="#">Ursaluna</a></li>
+      <li><a onclick="openModal(modal16)" href="#">Basculegion</a></li>
+      <li><a>Type The Name Of The Pokemon! &#8593;</a></li>
+      <br>
+      <br>
+      <br>
         <background id="myBackground"></background>
     <button onclick="changeImage1()" data-modal-targetShiny1="#modalShiny1" id="buttonShiny1">
         <h1 id="myHShiny1">Normal Versions</button>
@@ -347,6 +369,7 @@
         </div>
     </div>
     <div id="overlay13"></div>
+</ul>
     <script src="index.js"></script>
 </body>
 </html>

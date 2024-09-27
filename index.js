@@ -246,6 +246,7 @@ function changeImage() {
     document.getElementById('modal14').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal15').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal16').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('myInput').style.backgroundColor="rgb(110, 147, 102)";
     document.getElementById('costumeBulbasaur').style.backgroundColor="rgb(231, 202, 13)";
     document.getElementById('costumeBulbasaur1').style.backgroundColor="rgb(231, 202, 13)";
     document.getElementById('costumeBulbasaur2').style.backgroundColor="rgb(231, 202, 13)";
@@ -255,8 +256,6 @@ function changeImage() {
     document.getElementById('costumeSquirtle3').style.backgroundColor="rgb(231, 202, 13)";
     document.getElementById('costumeWartortle').style.backgroundColor="rgb(231, 202, 13)";
     document.getElementById('costumeWartortle1').style.backgroundColor="rgb(231, 202, 13)";
-    document.getElementById('myInput').style.backgroundColor="rgb(231, 202, 13)";
-    document.getElementById('mySubmit').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('myHShiny').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('myHShiny1').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('myH1').style.backgroundColor="rgb(195, 179, 8)";
@@ -360,6 +359,7 @@ function changeImage1() {
     document.getElementById('modal14').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('modal15').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('modal16').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('myInput').style.backgroundColor="rgb(110, 147, 102)";
     document.getElementById('costumeBulbasaur').style.backgroundColor="rgb(47, 213, 14)";
     document.getElementById('costumeBulbasaur1').style.backgroundColor="rgb(47, 213, 14)";
     document.getElementById('costumeBulbasaur2').style.backgroundColor="rgb(47, 213, 14)";
@@ -369,8 +369,6 @@ function changeImage1() {
     document.getElementById('costumeSquirtle3').style.backgroundColor="rgb(47, 213, 14)";
     document.getElementById('costumeWartortle').style.backgroundColor="rgb(47, 213, 14)";
     document.getElementById('costumeWartortle1').style.backgroundColor="rgb(47, 213, 14)";
-    document.getElementById('myInput').style.backgroundColor="rgb(47, 213, 14)";
-    document.getElementById('mySubmit').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('myHShiny').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('myHShiny1').style.backgroundColor="rgb(31, 161, 5)";
     document.getElementById('myH1').style.backgroundColor="rgb(31, 161, 5)";
@@ -735,3 +733,21 @@ function closeModal(modal16) {
     modal16.classList.remove('active')
     overlay16.classList.remove('active')
 }
+
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
+  
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
+    }
+  }

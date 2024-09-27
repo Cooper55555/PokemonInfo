@@ -8,6 +8,41 @@
     background-color: rgb(31, 161, 5);
 }
 
+#myInput {
+    background-color: rgb(110, 147, 102);
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: rgb(110, 147, 102);
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    position: absolute;
+    width: 100%;
+  }
+
+  #myUL li a:hover:not(.header) {
+    background-color: darkgrey;
+    cursor: pointer;
+  }
+
 #myH2 {
     color: rgb(0, 0, 0);
     padding: 10px 15px;
@@ -131,16 +166,6 @@
     padding: 10px 15px;
     display: center;
     justify-content: space-between;
-    background-color: rgb(31, 161, 5);
-}
-
-#myInput {
-    size: 40%;
-    background-color: rgb(47, 213, 14);
-}
-
-#mySubmit {
-    size: 20%;
     background-color: rgb(31, 161, 5);
 }
 
