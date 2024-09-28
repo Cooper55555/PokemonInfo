@@ -1910,3 +1910,76 @@ body {
     opacity: 1;
     pointer-events: all;
 }
+
+.modal17 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: #04AA6D;
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal17.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header17 {
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header17 .title17 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header17 .close-button17 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body17 {
+    padding: 10px 15px;
+}
+
+#buttons17 {
+    background-color: #04AA6D;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    width: 33%;
+}
+
+.image17 {
+    width: 40%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#overlay17 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay17.active {
+    opacity: 1;
+    pointer-events: all;
+}

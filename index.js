@@ -211,6 +211,8 @@ function changeImage() {
     img.src = 'https://img.pokemondb.net/sprites/home/shiny/1x/ursaluna.png';
     var img = document.getElementById('imageNormal16');
     img.src = 'https://img.pokemondb.net/sprites/home/shiny/1x/basculegion-male.png';
+    var img = document.getElementById('imageNormal17');
+    img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/sneasler.png';
     var img = document.getElementById('costumeBulbasaur');
     img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/bulbasaur-pikachu-cap.png';
     var img = document.getElementById('costumeBulbasaur1');
@@ -246,6 +248,7 @@ function changeImage() {
     document.getElementById('modal14').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal15').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal16').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('modal17').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('myInput').style.backgroundColor="rgb(110, 147, 102)";
     document.getElementById('costumeBulbasaur').style.backgroundColor="rgb(231, 202, 13)";
     document.getElementById('costumeBulbasaur1').style.backgroundColor="rgb(231, 202, 13)";
@@ -290,6 +293,7 @@ function changeImage() {
     document.getElementById('buttons14').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttons15').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttons16').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('buttons17').style.backgroundColor="rgb(195, 179, 8)";
 }
 
 function changeImage1() {
@@ -325,6 +329,8 @@ function changeImage1() {
     img.src = 'https://pokemon.gishan.cc/static/i/p/ursaluna.png';
     var img = document.getElementById('imageNormal16');
     img.src = 'https://img.pokemondb.net/sprites/home/normal/1x/basculegion-male.png';
+    var img = document.getElementById('imageNormal17');
+    img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/sneasler.png';
     var img = document.getElementById('costumeBulbasaur');
     img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/bulbasaur-pikachu-cap.png';
     var img = document.getElementById('costumeBulbasaur1');
@@ -360,6 +366,7 @@ function changeImage1() {
     document.getElementById('modal14').style.backgroundColor="#04AA6D";
     document.getElementById('modal15').style.backgroundColor="#04AA6D";
     document.getElementById('modal16').style.backgroundColor="#04AA6D";
+    document.getElementById('modal17').style.backgroundColor="#04AA6D";
     document.getElementById('myInput').style.backgroundColor="rgb(110, 147, 102)";
     document.getElementById('costumeBulbasaur').style.backgroundColor="#82d682";
     document.getElementById('costumeBulbasaur1').style.backgroundColor="#82d682";
@@ -404,6 +411,7 @@ function changeImage1() {
     document.getElementById('buttons14').style.backgroundColor="#04AA6D";
     document.getElementById('buttons15').style.backgroundColor="#04AA6D";
     document.getElementById('buttons16').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons17').style.backgroundColor="#04AA6D";
 }
 
 const openModalButtons6 = document.querySelectorAll('[data-modal-target6]')
@@ -760,4 +768,34 @@ function myCards() {
 
 function myPokedex() {
     document.documentElement.scrollTop = 50;
+}
+
+const openModalButtons17 = document.querySelectorAll('[data-modal-target17]')
+const closeModalButtons17 = document.querySelectorAll('[data-close-button17]')
+const overlay17 = document.getElementById('overlay17')
+
+openModalButtons17.forEach(button17 => {
+    button17.addEventListener('click', () => {
+        const modal17 = document.querySelector(button17.dataset.modalTarget17)
+        openModal(modal17)
+    })
+})
+
+closeModalButtons17.forEach(button17 => {
+    button17.addEventListener('click', () => {
+        const modal17 = button17.closest('.modal17')
+        closeModal(modal17)
+    })
+})
+
+function openModal(modal17) {
+    if (modal17 == null) return
+    modal17.classList.add('active')
+    overlay17.classList.add('active')
+}
+
+function closeModal(modal17) {
+    if (modal17 == null) return
+    modal17.classList.remove('active')
+    overlay17.classList.remove('active')
 }
