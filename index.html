@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="topnav">
+        <a class="active" href="#home" id="myHome">PokemonInfo</a>
+        <a onclick="myCards()" href="#cards">Cards</a>
+        <a onclick="myPokedex()" href="#pokedex">Pokedex</a>
+    </div>
     <h1 id="myH1">All The Pokemons In Pokemon Go:</div></h1>
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search For Pokemon..">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search For A Pokemon..">
     <ul id="myUL">
       <li><a onclick="openModal(modal)" href="#">Bulbasaur</a></li>
       <li><a onclick="openModal(modal1)" href="#">Ivysaur</a></li>

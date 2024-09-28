@@ -270,6 +270,7 @@ function changeImage() {
     document.getElementById('myH10').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('myH11').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('myH12').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('myHome').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttonShiny').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttonShiny1').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttons').style.backgroundColor="rgb(195, 179, 8)";
@@ -342,66 +343,67 @@ function changeImage1() {
     img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/wartortle-red-party-hat.png';
     var img = document.getElementById('costumeWartortle1');
     img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/wartortle-sunglasses.png';
-    document.getElementById('modal').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal1').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal2').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal3').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal4').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal5').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal6').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal7').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal8').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal9').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal10').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal11').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal12').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal13').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal14').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal15').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('modal16').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('modal').style.backgroundColor="#04AA6D";
+    document.getElementById('modal1').style.backgroundColor="#04AA6D";
+    document.getElementById('modal2').style.backgroundColor="#04AA6D";
+    document.getElementById('modal3').style.backgroundColor="#04AA6D";
+    document.getElementById('modal4').style.backgroundColor="#04AA6D";
+    document.getElementById('modal5').style.backgroundColor="#04AA6D";
+    document.getElementById('modal6').style.backgroundColor="#04AA6D";
+    document.getElementById('modal7').style.backgroundColor="#04AA6D";
+    document.getElementById('modal8').style.backgroundColor="#04AA6D";
+    document.getElementById('modal9').style.backgroundColor="#04AA6D";
+    document.getElementById('modal10').style.backgroundColor="#04AA6D";
+    document.getElementById('modal11').style.backgroundColor="#04AA6D";
+    document.getElementById('modal12').style.backgroundColor="#04AA6D";
+    document.getElementById('modal13').style.backgroundColor="#04AA6D";
+    document.getElementById('modal14').style.backgroundColor="#04AA6D";
+    document.getElementById('modal15').style.backgroundColor="#04AA6D";
+    document.getElementById('modal16').style.backgroundColor="#04AA6D";
     document.getElementById('myInput').style.backgroundColor="rgb(110, 147, 102)";
-    document.getElementById('costumeBulbasaur').style.backgroundColor="rgb(47, 213, 14)";
-    document.getElementById('costumeBulbasaur1').style.backgroundColor="rgb(47, 213, 14)";
-    document.getElementById('costumeBulbasaur2').style.backgroundColor="rgb(47, 213, 14)";
-    document.getElementById('costumeSquirtle').style.backgroundColor="rgb(47, 213, 14)";
-    document.getElementById('costumeSquirtle1').style.backgroundColor="rgb(47, 213, 14)";
-    document.getElementById('costumeSquirtle2').style.backgroundColor="rgb(47, 213, 14)";
-    document.getElementById('costumeSquirtle3').style.backgroundColor="rgb(47, 213, 14)";
-    document.getElementById('costumeWartortle').style.backgroundColor="rgb(47, 213, 14)";
-    document.getElementById('costumeWartortle1').style.backgroundColor="rgb(47, 213, 14)";
-    document.getElementById('myHShiny').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('myHShiny1').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('myH1').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('myH2').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('myH3').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('myH4').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('myH5').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('myH6').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('myH7').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('myH8').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('myH9').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('myH10').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('myH11').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('myH12').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttonShiny').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttonShiny1').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons1').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons2').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons3').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons4').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons5').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons6').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons7').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons8').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons9').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons10').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons11').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons12').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons13').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons14').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons15').style.backgroundColor="rgb(31, 161, 5)";
-    document.getElementById('buttons16').style.backgroundColor="rgb(31, 161, 5)";
+    document.getElementById('costumeBulbasaur').style.backgroundColor="#82d682";
+    document.getElementById('costumeBulbasaur1').style.backgroundColor="#82d682";
+    document.getElementById('costumeBulbasaur2').style.backgroundColor="#82d682";
+    document.getElementById('costumeSquirtle').style.backgroundColor="#82d682";
+    document.getElementById('costumeSquirtle1').style.backgroundColor="#82d682";
+    document.getElementById('costumeSquirtle2').style.backgroundColor="#82d682";
+    document.getElementById('costumeSquirtle3').style.backgroundColor="#82d682";
+    document.getElementById('costumeWartortle').style.backgroundColor="#82d682";
+    document.getElementById('costumeWartortle1').style.backgroundColor="#82d682";
+    document.getElementById('myHShiny').style.backgroundColor="#04AA6D";
+    document.getElementById('myHShiny1').style.backgroundColor="#04AA6D";
+    document.getElementById('myH1').style.backgroundColor="#04AA6D";
+    document.getElementById('myH2').style.backgroundColor="#04AA6D";
+    document.getElementById('myH3').style.backgroundColor="#04AA6D";
+    document.getElementById('myH4').style.backgroundColor="#04AA6D";
+    document.getElementById('myH5').style.backgroundColor="#04AA6D";
+    document.getElementById('myH6').style.backgroundColor="#04AA6D";
+    document.getElementById('myH7').style.backgroundColor="#04AA6D";
+    document.getElementById('myH8').style.backgroundColor="#04AA6D";
+    document.getElementById('myH9').style.backgroundColor="#04AA6D";
+    document.getElementById('myH10').style.backgroundColor="#04AA6D";
+    document.getElementById('myH11').style.backgroundColor="#04AA6D";
+    document.getElementById('myH12').style.backgroundColor="#04AA6D";
+    document.getElementById('myHome').style.backgroundColor="#04AA6D";
+    document.getElementById('buttonShiny').style.backgroundColor="#04AA6D";
+    document.getElementById('buttonShiny1').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons1').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons2').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons3').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons4').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons5').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons6').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons7').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons8').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons9').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons10').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons11').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons12').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons13').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons14').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons15').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons16').style.backgroundColor="#04AA6D";
 }
 
 const openModalButtons6 = document.querySelectorAll('[data-modal-target6]')
@@ -751,3 +753,11 @@ function myFunction() {
       }
     }
   }
+
+function myCards() {
+    document.documentElement.scrollTop = 10000;
+}
+
+function myPokedex() {
+    document.documentElement.scrollTop = 50;
+}

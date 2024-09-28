@@ -1,3 +1,29 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: sticky;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: black;
+    width: 10%;
+  }
+
 #myH1 {
     color: rgb(0, 0, 0);
     padding: 30px 35px;
@@ -5,14 +31,14 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
 }
 
 #myInput {
     background-color: rgb(110, 147, 102);
     background-position: 10px 12px;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 96%;
     font-size: 16px;
     padding: 12px 20px 12px 40px;
     border: 1px solid #ddd;
@@ -35,7 +61,7 @@
     color: black;
     display: block;
     position: absolute;
-    width: 100%;
+    width: 98.36%;
   }
 
   #myUL li a:hover:not(.header) {
@@ -50,7 +76,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
 }
 
 #myH3 {
@@ -60,7 +86,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
 }
 
 #myH4 {
@@ -70,7 +96,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
 }
 
 #myH5 {
@@ -80,7 +106,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
 }
 
 #myH6 {
@@ -90,7 +116,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
 }
 
 #myH7 {
@@ -100,7 +126,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
 }
 
 #myH8 {
@@ -110,7 +136,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
 }
 
 #myH9 {
@@ -120,7 +146,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
 }
 
 #myH10 {
@@ -130,7 +156,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
 }
 
 #myH11 {
@@ -140,7 +166,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
 }
 
 #myH12 {
@@ -150,7 +176,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
 }
 
 #myHShiny {
@@ -158,7 +184,7 @@
     padding: 10px 15px;
     display: center;
     justify-content: space-between;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
 }
 
 #myHShiny1 {
@@ -166,60 +192,60 @@
     padding: 10px 15px;
     display: center;
     justify-content: space-between;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
 }
 
 #costumeBulbasaur {
     border-radius: 50%;
-    background-color: rgb(47, 213, 14);
+    background-color: #82d682;
     border: 1px solid black;
 }
 
 #costumeBulbasaur1 {
     border-radius: 50%;
-    background-color: rgb(47, 213, 14);
+    background-color: #82d682;
     border: 1px solid black;
 }
 
 #costumeBulbasaur2 {
     border-radius: 50%;
-    background-color: rgb(47, 213, 14);
+    background-color: #82d682;
     border: 1px solid black;
 }
 
 #costumeSquirtle {
     border-radius: 50%;
-    background-color: rgb(47, 213, 14);
+    background-color: #82d682;
     border: 1px solid black;
 }
 
 #costumeSquirtle1 {
     border-radius: 50%;
-    background-color: rgb(47, 213, 14);
+    background-color: #82d682;
     border: 1px solid black;
 }
 
 #costumeSquirtle2 {
     border-radius: 50%;
-    background-color: rgb(47, 213, 14);
+    background-color: #82d682;
     border: 1px solid black;
 }
 
 #costumeSquirtle3 {
     border-radius: 50%;
-    background-color: rgb(47, 213, 14);
+    background-color: #82d682;
     border: 1px solid black;
 }
 
 #costumeWartortle {
     border-radius: 50%;
-    background-color: rgb(47, 213, 14);
+    background-color: #82d682;
     border: 1px solid black;
 }
 
 #costumeWartortle1 {
     border-radius: 50%;
-    background-color: rgb(47, 213, 14);
+    background-color: #82d682;
     border: 1px solid black;
 }
 
@@ -238,7 +264,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -274,7 +300,7 @@ body {
 }
 
 #buttons {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -311,7 +337,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -347,7 +373,7 @@ body {
 }
 
 #buttons1 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -384,7 +410,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -420,7 +446,7 @@ body {
 }
 
 #buttons2 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -457,7 +483,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -493,7 +519,7 @@ body {
 }
 
 #buttons3 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -530,7 +556,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -566,7 +592,7 @@ body {
 }
 
 #buttons4 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -603,7 +629,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -639,7 +665,7 @@ body {
 }
 
 #buttons5 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -668,13 +694,13 @@ body {
 }
 
 #buttonShiny {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     width: 49.5%;
 }
 
 #buttonShiny1 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     width: 49.5%;
 }
@@ -688,7 +714,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -724,7 +750,7 @@ body {
 }
 
 #buttons6 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -761,7 +787,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -797,7 +823,7 @@ body {
 }
 
 #buttons7 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -834,7 +860,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -870,7 +896,7 @@ body {
 }
 
 #buttons8 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -907,7 +933,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -943,7 +969,7 @@ body {
 }
 
 #buttons9 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -980,7 +1006,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -1016,7 +1042,7 @@ body {
 }
 
 #buttons10 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -1053,7 +1079,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -1089,7 +1115,7 @@ body {
 }
 
 #buttons11 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -1126,7 +1152,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -1162,7 +1188,7 @@ body {
 }
 
 #buttons12 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -1199,7 +1225,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 1500px;
     max-width: 85%;
 }
@@ -1235,7 +1261,7 @@ body {
 }
 
 #buttons13 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 25%;
@@ -1675,7 +1701,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -1711,7 +1737,7 @@ body {
 }
 
 #buttons14 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -1748,7 +1774,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -1784,7 +1810,7 @@ body {
 }
 
 #buttons15 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
@@ -1821,7 +1847,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     width: 500px;
     max-width: 80%;
 }
@@ -1857,7 +1883,7 @@ body {
 }
 
 #buttons16 {
-    background-color: rgb(31, 161, 5);
+    background-color: #04AA6D;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     width: 33%;
