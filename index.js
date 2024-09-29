@@ -213,6 +213,8 @@ function changeImage() {
     img.src = 'https://img.pokemondb.net/sprites/home/shiny/1x/basculegion-male.png';
     var img = document.getElementById('imageNormal17');
     img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/sneasler.png';
+    var img = document.getElementById('imageNormal18');
+    img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/overqwil.png';
     var img = document.getElementById('costumeBulbasaur');
     img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/bulbasaur-pikachu-cap.png';
     var img = document.getElementById('costumeBulbasaur1');
@@ -249,6 +251,7 @@ function changeImage() {
     document.getElementById('modal15').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal16').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal17').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('modal18').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('cardyoutubers').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('cardyoutubers1').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('cardyoutubers2').style.backgroundColor="rgb(195, 179, 8)";
@@ -299,6 +302,7 @@ function changeImage() {
     document.getElementById('buttons15').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttons16').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttons17').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('buttons18').style.backgroundColor="rgb(195, 179, 8)";
 }
 
 function changeImage1() {
@@ -336,6 +340,8 @@ function changeImage1() {
     img.src = 'https://img.pokemondb.net/sprites/home/normal/1x/basculegion-male.png';
     var img = document.getElementById('imageNormal17');
     img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/sneasler.png';
+    var img = document.getElementById('imageNormal18');
+    img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/overqwil.png';
     var img = document.getElementById('costumeBulbasaur');
     img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/bulbasaur-pikachu-cap.png';
     var img = document.getElementById('costumeBulbasaur1');
@@ -372,6 +378,7 @@ function changeImage1() {
     document.getElementById('modal15').style.backgroundColor="#04AA6D";
     document.getElementById('modal16').style.backgroundColor="#04AA6D";
     document.getElementById('modal17').style.backgroundColor="#04AA6D";
+    document.getElementById('modal18').style.backgroundColor="#04AA6D";
     document.getElementById('cardyoutubers').style.backgroundColor="#04AA6D";
     document.getElementById('cardyoutubers1').style.backgroundColor="#04AA6D";
     document.getElementById('cardyoutubers2').style.backgroundColor="#04AA6D";
@@ -422,6 +429,7 @@ function changeImage1() {
     document.getElementById('buttons15').style.backgroundColor="#04AA6D";
     document.getElementById('buttons16').style.backgroundColor="#04AA6D";
     document.getElementById('buttons17').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons18').style.backgroundColor="#04AA6D";
 }
 
 const openModalButtons6 = document.querySelectorAll('[data-modal-target6]')
@@ -808,4 +816,34 @@ function closeModal(modal17) {
     if (modal17 == null) return
     modal17.classList.remove('active')
     overlay17.classList.remove('active')
+}
+
+const openModalButtons18 = document.querySelectorAll('[data-modal-target18]')
+const closeModalButtons18 = document.querySelectorAll('[data-close-button18]')
+const overlay18 = document.getElementById('overlay18')
+
+openModalButtons18.forEach(button18 => {
+    button18.addEventListener('click', () => {
+        const modal18 = document.querySelector(button18.dataset.modalTarget18)
+        openModal(modal18)
+    })
+})
+
+closeModalButtons18.forEach(button18 => {
+    button18.addEventListener('click', () => {
+        const modal18 = button18.closest('.modal18')
+        closeModal(modal18)
+    })
+})
+
+function openModal(modal18) {
+    if (modal18 == null) return
+    modal18.classList.add('active')
+    overlay18.classList.add('active')
+}
+
+function closeModal(modal18) {
+    if (modal18 == null) return
+    modal18.classList.remove('active')
+    overlay18.classList.remove('active')
 }

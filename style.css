@@ -2198,3 +2198,76 @@ body {
     opacity: 1;
     pointer-events: all;
 }
+
+.modal18 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: #04AA6D;
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal18.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header18 {
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header18 .title18 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header18 .close-button18 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body18 {
+    padding: 10px 15px;
+}
+
+#buttons18 {
+    background-color: #04AA6D;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    width: 33%;
+}
+
+.image18 {
+    width: 40%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#overlay18 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay18.active {
+    opacity: 1;
+    pointer-events: all;
+}
