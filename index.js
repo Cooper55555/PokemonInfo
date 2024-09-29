@@ -249,6 +249,11 @@ function changeImage() {
     document.getElementById('modal15').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal16').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal17').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('cardyoutubers').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('cardyoutubers1').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('cardyoutubers2').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('cardyoutubers3').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('cardyoutubers4').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('myInput').style.backgroundColor="rgb(110, 147, 102)";
     document.getElementById('costumeBulbasaur').style.backgroundColor="rgb(231, 202, 13)";
     document.getElementById('costumeBulbasaur1').style.backgroundColor="rgb(231, 202, 13)";
@@ -367,6 +372,11 @@ function changeImage1() {
     document.getElementById('modal15').style.backgroundColor="#04AA6D";
     document.getElementById('modal16').style.backgroundColor="#04AA6D";
     document.getElementById('modal17').style.backgroundColor="#04AA6D";
+    document.getElementById('cardyoutubers').style.backgroundColor="#04AA6D";
+    document.getElementById('cardyoutubers1').style.backgroundColor="#04AA6D";
+    document.getElementById('cardyoutubers2').style.backgroundColor="#04AA6D";
+    document.getElementById('cardyoutubers3').style.backgroundColor="#04AA6D";
+    document.getElementById('cardyoutubers4').style.backgroundColor="#04AA6D";
     document.getElementById('myInput').style.backgroundColor="rgb(110, 147, 102)";
     document.getElementById('costumeBulbasaur').style.backgroundColor="#82d682";
     document.getElementById('costumeBulbasaur1').style.backgroundColor="#82d682";
@@ -767,7 +777,7 @@ function myCards() {
 }
 
 function myPokedex() {
-    document.documentElement.scrollTop = 50;
+    document.documentElement.scrollTop = 500;
 }
 
 const openModalButtons17 = document.querySelectorAll('[data-modal-target17]')
