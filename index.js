@@ -215,6 +215,8 @@ function changeImage() {
     img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/sneasler.png';
     var img = document.getElementById('imageNormal18');
     img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/overqwil.png';
+    var img = document.getElementById('imageNormal19');
+    img.src = 'https://img.pokemondb.net/sprites/home/shiny/1x/enamorus-incarnate.png';
     var img = document.getElementById('costumeBulbasaur');
     img.src = 'https://img.pokemondb.net/sprites/go/shiny/1x/bulbasaur-pikachu-cap.png';
     var img = document.getElementById('costumeBulbasaur1');
@@ -252,6 +254,7 @@ function changeImage() {
     document.getElementById('modal16').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal17').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('modal18').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('modal19').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('cardyoutubers').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('cardyoutubers1').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('cardyoutubers2').style.backgroundColor="rgb(195, 179, 8)";
@@ -303,6 +306,7 @@ function changeImage() {
     document.getElementById('buttons16').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttons17').style.backgroundColor="rgb(195, 179, 8)";
     document.getElementById('buttons18').style.backgroundColor="rgb(195, 179, 8)";
+    document.getElementById('buttons19').style.backgroundColor="rgb(195, 179, 8)";
 }
 
 function changeImage1() {
@@ -342,6 +346,8 @@ function changeImage1() {
     img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/sneasler.png';
     var img = document.getElementById('imageNormal18');
     img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/overqwil.png';
+    var img = document.getElementById('imageNormal19');
+    img.src = 'https://img.pokemondb.net/sprites/home/normal/1x/enamorus-incarnate.png';
     var img = document.getElementById('costumeBulbasaur');
     img.src = 'https://img.pokemondb.net/sprites/go/normal/1x/bulbasaur-pikachu-cap.png';
     var img = document.getElementById('costumeBulbasaur1');
@@ -379,6 +385,7 @@ function changeImage1() {
     document.getElementById('modal16').style.backgroundColor="#04AA6D";
     document.getElementById('modal17').style.backgroundColor="#04AA6D";
     document.getElementById('modal18').style.backgroundColor="#04AA6D";
+    document.getElementById('modal19').style.backgroundColor="#04AA6D";
     document.getElementById('cardyoutubers').style.backgroundColor="#04AA6D";
     document.getElementById('cardyoutubers1').style.backgroundColor="#04AA6D";
     document.getElementById('cardyoutubers2').style.backgroundColor="#04AA6D";
@@ -430,6 +437,7 @@ function changeImage1() {
     document.getElementById('buttons16').style.backgroundColor="#04AA6D";
     document.getElementById('buttons17').style.backgroundColor="#04AA6D";
     document.getElementById('buttons18').style.backgroundColor="#04AA6D";
+    document.getElementById('buttons19').style.backgroundColor="#04AA6D";
 }
 
 const openModalButtons6 = document.querySelectorAll('[data-modal-target6]')
@@ -788,6 +796,14 @@ function myPokedex() {
     document.documentElement.scrollTop = 500;
 }
 
+function myKanto() {
+    document.documentElement.scrollTop = 850;
+}
+
+function myJohto() {
+    document.documentElement.scrollTop = 1850;
+}
+
 const openModalButtons17 = document.querySelectorAll('[data-modal-target17]')
 const closeModalButtons17 = document.querySelectorAll('[data-close-button17]')
 const overlay17 = document.getElementById('overlay17')
@@ -846,4 +862,34 @@ function closeModal(modal18) {
     if (modal18 == null) return
     modal18.classList.remove('active')
     overlay18.classList.remove('active')
+}
+
+const openModalButtons19 = document.querySelectorAll('[data-modal-target19]')
+const closeModalButtons19 = document.querySelectorAll('[data-close-button19]')
+const overlay19 = document.getElementById('overlay19')
+
+openModalButtons19.forEach(button19 => {
+    button19.addEventListener('click', () => {
+        const modal19 = document.querySelector(button19.dataset.modalTarget19)
+        openModal(modal19)
+    })
+})
+
+closeModalButtons19.forEach(button19 => {
+    button19.addEventListener('click', () => {
+        const modal19 = button19.closest('.modal19')
+        closeModal(modal19)
+    })
+})
+
+function openModal(modal19) {
+    if (modal19 == null) return
+    modal19.classList.add('active')
+    overlay19.classList.add('active')
+}
+
+function closeModal(modal19) {
+    if (modal19 == null) return
+    modal19.classList.remove('active')
+    overlay19.classList.remove('active')
 }

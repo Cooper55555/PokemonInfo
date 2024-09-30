@@ -239,6 +239,70 @@
     width: 10%;
   }
 
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(255, 88, 88);
+    color: black;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    position: fixed;
+  }
+
 #myH1 {
     color: rgb(0, 0, 0);
     padding: 30px 35px;
@@ -2268,6 +2332,79 @@ body {
 }
 
 #overlay18.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal19 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: #04AA6D;
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal19.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header19 {
+    padding: 10px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header19 .title19 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header19 .close-button19 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body19 {
+    padding: 10px 15px;
+}
+
+#buttons19 {
+    background-color: #04AA6D;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    width: 33%;
+}
+
+.image19 {
+    width: 40%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#overlay19 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay19.active {
     opacity: 1;
     pointer-events: all;
 }
