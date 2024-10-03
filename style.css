@@ -528,6 +528,24 @@
     border: 1px solid black;
 }
 
+#megaevolve {
+    width: 20%;
+    border-radius: 15%;
+    background-color: #82d682;
+    border: 1px solid black;
+}
+
+#megaevolveArrow {
+    width: 10%;
+}
+
+#megaevolve1 {
+    width: 20%;
+    border-radius: 15%;
+    background-color: #82d682;
+    border: 1px solid black;
+}
+
 body {
     padding: 0;
     margin: 0;
